@@ -11,7 +11,7 @@ const Grid: NextPage = () => {
     {/* Grid element */}
   <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-0 gap-y-12  justify-items-center px-12 sm:px-64 md:px-52'>
 
-{/* Image 1 */}
+{/* 1 */}
 <Card
   h1text={'EVAN'} 
   h2text={'Software Engineer'} 
@@ -22,7 +22,7 @@ const Grid: NextPage = () => {
   imageURL={"https://picsum.photos/id/51/800/800"}
   />
 
-{/* Image 2 */}
+{/* 2 */}
 <Card
   h1text={'JACOB'} 
   h2text={'Software Engineer'} 
@@ -33,7 +33,7 @@ const Grid: NextPage = () => {
   imageURL={"https://picsum.photos/id/47/800/800"}
   />
 
-  {/* Image 3 */}
+  {/* 3 */}
   <div className="relative h-96 w-72">
   <div className='relative mt-52 flex-col text-left justify-end ml-20'>
   <img src="../images/quotes.png" alt="quotes" className='w-12 h-12'/>
@@ -42,7 +42,7 @@ const Grid: NextPage = () => {
   </div>
 </div>
 
-{/* Image 4 */}
+{/* 4 */}
 <Card
   h1text={'TRAVIS'} 
   h2text={'Cybersecurity Engineer'} 
@@ -53,7 +53,7 @@ const Grid: NextPage = () => {
   imageURL={"https://picsum.photos/id/61/800/800"}
   />
 
-{/* Image 5 */}
+{/* 5 */}
 <Card
   h1text={'SAMUEL'} 
   h2text={'Designer'} 
@@ -64,7 +64,7 @@ const Grid: NextPage = () => {
   imageURL={"https://picsum.photos/id/88/800/800"}
   />
 
-{/* Image 6 */}
+{/* 6 */}
 <Card
   h1text={'TUNA'} 
   h2text={'Young Buck'} 
@@ -75,7 +75,7 @@ const Grid: NextPage = () => {
   imageURL={"https://picsum.photos/id/58/800/800"}
   />
 
-  {/* Image 7 */}
+  {/* 7 */}
   <div className="relative h-96 w-72">
   <div className='relative mt-48 flex-col text-left justify-start'>
     <img src="../images/quotes.png" alt="quotes" className='w-12 h-12'/>
@@ -84,7 +84,7 @@ const Grid: NextPage = () => {
   </div>
 </div>
 
-  {/* Image 8 */}
+  {/* 8 */}
   <Card
   h1text={'ERIN'} 
   h2text={'Database Administrator'} 
@@ -95,7 +95,7 @@ const Grid: NextPage = () => {
   imageURL={"https://picsum.photos/id/72/800/800"}
   />
 
-  {/* Image 9 */}
+  {/* 9 */}
   <Card
   h1text={'ZACK'} 
   h2text={'Technical Recruiter'} 
@@ -106,7 +106,7 @@ const Grid: NextPage = () => {
   imageURL={"https://picsum.photos/id/67/800/800"}
   />
 
-{/* Card 10 */}
+{/* 10 */}
 <Card
   h1text={'JOHN'} 
   h2text={'Software Engineer'} 
@@ -116,14 +116,15 @@ const Grid: NextPage = () => {
   p2={'Urban Artifact'} 
   imageURL={"https://picsum.photos/id/91/800/800"}
   />
-{/* Card 11 */}
+
+{/* 11 */}
  <div className="relative h-96 w-72">
   <div className="absolute inset-0 flex flex-col justify-center items-center text-center opacity-1000 hover:opacity-100 bg-opacity-100  bg-off-white">
     <div className="flex flex-col px-10 justify-center text-center">
     <h1 className="tracking-widest text-blue-gray text-3xl font-bold pb-4">JOIN OUR TEAM</h1>
     <h2 className="tracking-widest font-normal text-sm text-blue-gray mb-4">THINK YOU'VE GOT WHAT IT TAKES?</h2>
     <div>
-      <img src="./images/vineyard.png" alt="" className='absolute mt-3 left-52 w-28 h-28'/>
+      <img src="./images/vineyard.png" alt="" className='absolute mt-12 left-52 w-28 h-28'/>
     </div>
     </div>
   </div>

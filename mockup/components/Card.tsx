@@ -9,7 +9,7 @@ const Card = ({h1text, h2text, p1, p2, q, a, imageURL}) => (
         <h1 className="text-white font-normal opacity-90 tracking-wider mb-3">{h1text}</h1>
         <h2 className="text-dark-gray opacity-90 text-sm tracking-widest mb-4">{h2text}</h2>
         <div className='flex flex-row justify-center text-center tracking-tight text-xs'>
-            <span className='text-dark-gray opacity-90 font-semibold pr-1'>{q}</span>
+            <span className='text-dark-gray opacity-90 font-semibold'>{q}</span>
             <p className="text-white mb-4 opacity-90 tracking-tight">{p1}</p>
         </div>
         <div className='flex flex-row justify-center text-center tracking-tight text-xs'>
